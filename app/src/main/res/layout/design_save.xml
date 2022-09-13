@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/offblack"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/full_contains"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#24343E"
+            android:elevation="20dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:id="@+id/contian_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="210dp">
+
+                <TextView
+                    android:id="@+id/title_like_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/description_like_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_like_txt"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="5"
+                    android:text="Description"
+                    android:textColor="@color/dull"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/author_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/description_like_txt"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="3"
+                    android:text="Author"
+                    android:textColor="@color/dull"
+                    android:textSize="16.7dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/published_At_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/author_like"
+                    android:layout_marginTop="5dp"
+                    android:text="Published AT"
+                    android:textColor="@color/dull"
+                    android:textSize="16.7dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/content_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/published_At_like"
+                    android:layout_marginTop="5dp"
+                    android:text="Published AT"
+                    android:textColor="@color/dull"
+                    android:textSize="16.7dp"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/read_more_like"
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/content_like"
+                    android:layout_marginTop="10dp"
+                    android:text="Read more........."
+                    android:textColor="@color/orange"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/read_less_like"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/content_like"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="end"
+                    android:text="View less"
+                    android:textColor="@color/orange"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_card_like"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/img_view_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/saved" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/author_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:text="author"
+        android:visibility="gone"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

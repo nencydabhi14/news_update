@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">News Update</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="web_client_id">1027826015549-0fe20anei5k6uucsn32s1hb96drdkdkv.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1126904104926266</string>
+    <string name="fb_login_protocol_scheme">fb1126904104926266</string>
+    <string name="facebook_client_token">a076e1d1c4de63ef98352aad40965a8c</string>
+
+</resources>

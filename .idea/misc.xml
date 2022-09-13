@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1725" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/corner_details.xml" value="0.1655" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/corner_radius_shap.xml" value="0.1705" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/cornerlogout.xml" value="0.126" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/cursor_color.xml" value="0.1295" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.148" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.1305" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/ripaleffect.xml" value="0.1705" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/ripple_effect_round.xml" value="0.128" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/drawable/ripple_login.xml" value="0.128" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_all_like_post_screen.xml" value="0.15" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_all_save_post_screen.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_business_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_details_screen.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_edit_profile_screen.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_news_web_view_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_profile_screen.xml" value="0.20164609053497942" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_select_country_screen.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_sign_up_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_skipped_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_splash_screen_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_video_screen.xml" value="0.18" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_video_screen_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/activity_webview_all_like_screen.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/county_select_item.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/design_like.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/design_news.xml" value="0.22" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/design_save.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/detailsfile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/dialog_bottom_menu.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/dialog_choose_image.xml" value="0.33" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/dialog_username_edit.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_business_.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_category_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_entertainment_.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_latest_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_news_.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_original_news_.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_science_.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_select__city_.xml" value="0.18" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_sport_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_technology.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_top_news_.xml" value="0.16" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/fragment_tranding_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/logout_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/nativeadd_item.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/layout/videoview_item.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/menu/navigation_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/NewsUpdate/app/src/main/res/menu/navigationdrawer.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

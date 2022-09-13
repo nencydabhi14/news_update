@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offblack"
+    tools:context=".Screen.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/header_contain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/grey">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Daily 24/7 News"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/menu_img"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripaleffect"
+            android:padding="12dp"
+            android:src="@drawable/menudialogopen"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_contain"
+        android:background="@color/grey"
+        app:tabBackground="@color/grey"
+        app:tabIndicatorColor="@color/white"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/dull" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_view"
+        android:layout_marginBottom="60dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/corner_radius_shap" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+
+            <RelativeLayout
+                android:id="@+id/home_contain"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripaleffect">
+
+                <View
+                    android:id="@+id/home_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/white" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+
+                    <ImageView
+                        android:id="@+id/home_img"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        android:src="@drawable/home" />
+
+                    <TextView
+                        android:id="@+id/home_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/home_img"
+                        android:layout_centerHorizontal="true"
+                        android:text="Home"
+                        android:textColor="@color/white" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/video_contain"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/home_contain"
+                android:background="@drawable/ripaleffect">
+
+                <View
+                    android:id="@+id/video_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/video_img"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="4dp"
+                        android:src="@drawable/videod" />
+
+                    <TextView
+                        android:id="@+id/video_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/video_img"
+                        android:layout_centerHorizontal="true"
+                        android:text="video"
+                        android:textColor="@color/dull" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_contain"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/video_contain"
+                android:background="@drawable/ripaleffect">
+
+                <View
+                    android:id="@+id/profile_View"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/profile_img"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="5dp"
+                        android:src="@drawable/profiled" />
+
+                    <TextView
+                        android:id="@+id/profile_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/profile_img"
+                        android:layout_centerHorizontal="true"
+                        android:text="profile"
+                        android:textColor="@color/dull" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/try_btn"
+        android:text="સમાચાર સતર્ક"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/try_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Hello World!"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>
+
+
+    <!--    business-->
+    <!--    entertainment-->
+    <!--    general-->
+    <!--    health-->
+    <!--    science-->
+    <!--    sports-->
+    <!--    technology-->

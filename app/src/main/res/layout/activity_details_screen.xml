@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offblack"
+    tools:context=".Screen.Details_Screen">
+
+    <RelativeLayout
+        android:id="@+id/headerd"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/grey">
+
+        <ImageView
+            android:id="@+id/back_img_details"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripaleffect"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/share_detail"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ripaleffect"
+            android:padding="14dp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/save_detail"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/share_detail"
+            android:background="@drawable/ripaleffect"
+            android:padding="14dp"
+            android:src="@drawable/save" />
+
+        <ImageView
+            android:id="@+id/like_detail"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/save_detail"
+            android:background="@drawable/ripaleffect"
+            android:padding="14dp"
+            android:src="@drawable/like" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerd">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksandsemibold"
+                android:padding="10dp"
+                android:text="Long Covid More Severe In Women Than Men, Suggests Study - Mint"
+                android:textColor="@color/orange"
+                android:textSize="18dp" />
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="15dp"
+                android:id="@+id/img_card"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/title_details"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <ImageView
+                    android:id="@+id/img_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/img_card"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner_details">
+
+
+                <TextView
+                    android:id="@+id/content_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:padding="10dp"
+                    android:text="Post-coronavirus complications, also called long Covid syndrome, induce more symptoms in women than men, a new study has found. \r\nThe new research, published in the Journal of Women's Health, reveale… [+2402 chars]"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/content_details"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/dull" />
+
+                <TextView
+                    android:id="@+id/publishAt_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view"
+                    android:padding="10dp"
+                    android:text="2022-04-21T11:37:19Z"
+                    android:textColor="@color/dull"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/author_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/description_details"
+                    android:padding="10dp"
+                    android:text="Livemint"
+                    android:textColor="@color/orange"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/description_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/publishAt_details"
+                    android:padding="10dp"
+                    android:text="The study found that 91% of patients, who were followed up for five months on average, continued to experience Covid-19 symptoms. Breathlessness was the most common symptom of long Covid-19, followed by fatigue"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/author_details"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ripaleffect"
+                    android:padding="5dp"
+                    android:text="https://images.livemint.com/img/2022/04/21/600x338/long_covid_symptoms_1650540839356_1650540839488.jpg"
+                    android:textColor="#3391FF"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/urlImg_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/author_details"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="20dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/author_details"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    android:background="@color/dull" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/news_anim_splash"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="2.7dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    android:layout_below="@id/author_details"
+                    app:lottie_rawRes="@raw/lineanim" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="16dp"
+                        android:text="Click here to read more news......"
+                        android:textColor="@color/dull"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
