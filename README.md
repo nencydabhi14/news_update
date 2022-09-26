@@ -22,7 +22,7 @@ For the routes, you can see it below....
 
 In this App I Use Multiple API 👇
 
-    💠 oogle News Api 
+    💠 Google News Api 
     
     💠 news.org(query Api Multiple Countries)
     
